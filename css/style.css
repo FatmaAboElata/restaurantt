@@ -1,0 +1,279 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) 
+        ,url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px ;
+    margin-top: 20px;
+}
+.main-nav,.footer-nav,.social-nav{
+    display: flex;
+    list-style: none;
+}
+.social-nav{
+    float: right;
+}
+.main-nav li,
+.footer-nav li,
+.social-nav li
+{
+    margin-right: 10px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-nav li a,
+.social-nav li a{
+    color: #898988;
+    text-decoration: none;
+}
+.main-nav li a:hover,
+.footer-nav li a:hover,
+.social-nav li a:hover{
+    color: orange;
+}
+.hero{
+    margin: 15% 70px;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1.3px;
+    line-height: 50px;
+}
+.btn{
+    border: solid 1px orange;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 3px 15px;
+}
+.btn:hover{
+    background-color: orange;
+}
+section{
+    padding: 30px 0px;
+}
+.features-info{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+h2{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+hr{
+    width: 100px;
+    color: orange;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 2px;
+}
+.box{
+    text-align: left;
+}
+.box i{
+    color: orange;
+    font-size: 25px;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.meals{
+    padding: 0;
+    background-color: black;
+
+}
+.meal{
+   padding: 0;
+   overflow: hidden;
+}
+.meal img{
+     width: 100%;
+     margin-top: -5px;
+     opacity: 0.6;
+     transform: scale(1.3);
+     transition: all 2s;
+}
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+#how-it-works{
+    background-color:#f4f4f4;
+    position: relative;
+}
+.phone{
+    height: 350px;
+    padding: 10px 350px;
+}
+.steps{
+    list-style: none;
+    padding: 37px 10px;
+
+}
+.steps li{
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+span{
+    color: orange;
+    border: solid 1px orange;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+}
+.down{
+    position: absolute;
+    right: 350PX; bottom: 10px;
+}
+.google{
+    width: 120px;
+}
+.city img{
+    width: 100%;
+}
+.city i{
+    color: orange;
+}
+.city a{
+    color: orange;
+}
+.customer{
+    min-height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) 
+        ,url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+}
+.customer i{
+    margin-top: 40px;
+    color: white;
+}
+.customer h2{
+    color: white;
+}
+.customer p{
+    color: white;
+}
+.cus1{
+    border: solid 1px transparent;
+    border-radius: 50%;
+    width: 44px;
+    margin-right: 7px;  
+}
+.cus2{
+    border: solid 1px transparent;
+    border-radius: 50%;
+    width: 44px;
+    margin-right: 7px;
+}
+.cus3{
+    border: solid 1px transparent;
+    border-radius: 50%;
+    width: 44px;
+    margin-right: 7px;
+}
+.sign-up{
+    background-color: #f4f4f4;
+    margin-left: 10px;
+}
+.offer{
+    background-color: white;
+    margin-left: 40px;
+
+}
+.num{
+    color: orange;
+    font-size: 40px;
+    border: none;
+    padding: 0;
+}
+.type{
+    color: orange;
+    border: none;
+    padding: 0;
+}
+.sign-up{
+    text-align: left;
+}
+.nom{
+    color: white;
+}
+.sign-up i{
+   color: orange;
+   font-size: 10px;
+}
+.offer a{
+    border: solid 1px orange;
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: orange;
+    text-decoration: none;
+    margin-left:60px ;
+    margin-top: 90px;
+}
+
+.offer a:hover{
+    background-color: orange;
+    color: white;
+}
+input[type=text],
+input[type=email],
+textarea,select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: #333 1px solid;
+    border-radius: 3px;
+}
+input[type=checkbox]{
+    margin-bottom: 10px;
+}
+button{
+    border: solid 1px orangered;
+    background-color: orange;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+}
+footer{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #333333;
+    color:#898988 ;
+}
+.footer p{
+    
+    text-align: center;
+}
